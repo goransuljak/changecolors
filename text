@@ -1,0 +1,29 @@
+/// CHANGE COLORS PROJECT simple 
+
+1.FIRST WE CREATE BUTTON TO PRESS AND CHANGE COLORS IN HTML 
+2.THEN WE STYLE IT IN MAIN CSS IN CENTER
+3.CREATE ARRAY OF COLORS 
+( example : ['yellow', 'red'...], this time we will use queryselector )
+4.ADD EVENT LISTENER 'CLICK' ON BUTTON WITH CALLBACK FUNCTION 
+5.CREATE CHANGE COLOR FUNCTION 
+( let random = Math.floor(Math.floor(Math.random()) * array name.length )
+6.THEN WE SAY 
+(bodyBcg.style.backgroundColor = colors[random];)
+
+
+//CHANGE COLORS PROJECT shows background color code
+
+1.FIRST WE CREATE H2 HEX COLOR TO DYNAMICALLY UPDATE IN JS IN HTML, AND BUTTON 
+2.THEN WE STYLE IT IN MAIN CSS WITH FLEXBOX
+3.FIRST WE CREATE AN ARRAY OF HEX NUMBERS 
+(example const hexNumbers = ['1', '2'........, '9', 'A','B'......'F']; )
+4.THEN WE TARGET BUTTON FROM HTML, BODY AND HEX SPAN
+5.THEN WE ADD CLICK ADD EVENT LISTENER WITH CALLBACK FUNCTION
+6.CREATE FUNCTION 
+( create variable let hexColor = '#'; 
+we create for loop, then we inside loop want randomly numbers
+let random = Math.floor(Math.random() * array of numbers.length,
+and we add it to hexColor # += hexnumbers[random] ) 
+7.STYLE BACKGROUND COLOR 
+(body.style.backgroundColor = hexCol;
+hex.innerHTML = hexCol;)
